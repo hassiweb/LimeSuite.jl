@@ -1,0 +1,1519 @@
+/usr/include/lime/ADCUnits.h:8:1: error: unknown type name 'namespace'
+/usr/include/lime/ADCUnits.h:8:15: error: expected ';' after top level declarator
+/usr/include/lime/ADF4002.h:12:1: error: unknown type name 'namespace'
+/usr/include/lime/ADF4002.h:12:15: error: expected ';' after top level declarator
+/usr/include/lime/ConnectionHandle.h:10:10: fatal error: 'string' file not found
+/usr/include/lime/ConnectionHandle.h:10:10: fatal error: 'string' file not found
+/usr/include/lime/ConnectionHandle.h:10:10: fatal error: 'string' file not found
+/usr/include/lime/ConnectionHandle.h:10:10: fatal error: 'string' file not found
+/usr/include/lime/LMS64CCommands.h:8:1: error: unknown type name 'namespace'
+/usr/include/lime/LMS64CCommands.h:8:15: error: expected ';' after top level declarator
+/usr/include/lime/ConnectionHandle.h:10:10: fatal error: 'string' file not found
+/usr/include/lime/LMS7002M.h:12:10: fatal error: 'cstdint' file not found
+/usr/include/lime/LMS7002M_RegistersMap.h:4:10: fatal error: 'vector' file not found
+/usr/include/lime/LMSBoards.h:8:1: error: unknown type name 'namespace'
+/usr/include/lime/LMSBoards.h:8:15: error: expected ';' after top level declarator
+/usr/include/lime/Logger.h:11:10: fatal error: 'string' file not found
+/usr/include/lime/MCU_BD.h:10:10: fatal error: 'atomic' file not found
+/usr/include/lime/MCU_File.h:3:10: fatal error: 'vector' file not found
+/usr/include/lime/Si5351C.h:11:10: fatal error: 'string' file not found
+/usr/include/lime/dataTypes.h:6:10: fatal error: 'utility' file not found
+/usr/include/lime/SystemResources.h:11:10: fatal error: 'string' file not found
+/usr/include/lime/VersionInfo.h:11:10: fatal error: 'string' file not found
+/usr/include/lime/dataTypes.h:6:10: fatal error: 'utility' file not found
+/usr/include/lime/fifo.h:4:10: fatal error: 'mutex' file not found
+/usr/include/lime/LMS7002M.h:12:10: fatal error: 'cstdint' file not found
+[ Info: wrapping header: /usr/include/lime/ADCUnits.h ...
+┌ Warning: not wrapping CLCursor (CLVarDecl) lime
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+[ Info: writing ../src/wrapper/ADCUnits.jl
+[ Info: wrapping header: /usr/include/lime/ADF4002.h ...
+┌ Warning: not wrapping CLCursor (CLVarDecl) lime
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+[ Info: writing ../src/wrapper/ADF4002.jl
+[ Info: wrapping header: /usr/include/lime/ConnectionHandle.h ...
+┌ Warning: not wrapping CLCursor (CLVarDecl) lime
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+[ Info: writing ../src/wrapper/ConnectionHandle.jl
+[ Info: wrapping header: /usr/include/lime/ConnectionRegistry.h ...
+┌ Warning: not wrapping CLCursor (CLVarDecl) lime
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+[ Info: writing ../src/wrapper/ConnectionRegistry.jl
+[ Info: wrapping header: /usr/include/lime/FPGA_common.h ...
+[ Info: writing ../src/wrapper/FPGA_common.jl
+[ Info: wrapping header: /usr/include/lime/IConnection.h ...
+┌ Warning: not wrapping CLCursor (CLVarDecl) lime
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+[ Info: writing ../src/wrapper/IConnection.jl
+[ Info: wrapping header: /usr/include/lime/LMS64CCommands.h ...
+┌ Warning: not wrapping CLCursor (CLVarDecl) lime
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+[ Info: writing ../src/wrapper/LMS64CCommands.jl
+[ Info: wrapping header: /usr/include/lime/LMS64CProtocol.h ...
+[ Info: writing ../src/wrapper/LMS64CProtocol.jl
+[ Info: wrapping header: /usr/include/lime/LMS7002M.h ...
+┌ Warning: not wrapping CLCursor (CLVarDecl) lime
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+[ Info: writing ../src/wrapper/LMS7002M.jl
+[ Info: wrapping header: /usr/include/lime/LMS7002M_RegistersMap.h ...
+┌ Warning: not wrapping CLCursor (CLVarDecl) lime
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+[ Info: writing ../src/wrapper/LMS7002M_RegistersMap.jl
+[ Info: wrapping header: /usr/include/lime/LMS7002M_parameters.h ...
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_LRST_TX_B
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_MRST_TX_B
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_LRST_TX_A
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_MRST_TX_A
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_LRST_RX_B
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_MRST_RX_B
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_LRST_RX_A
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_MRST_RX_A
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_SRST_RXFIFO
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_SRST_TXFIFO
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_RXEN_B
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_RXEN_A
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_TXEN_B
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_TXEN_A
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_MAC
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_TX_CLK_PE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_RX_CLK_PE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_SDA_PE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_SDA_DS
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_SCL_PE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_SCL_DS
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_SDIO_DS
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_SDIO_PE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_SDO_PE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_SCLK_PE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_SEN_PE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_SPIMODE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DIQ2_DS
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DIQ2_PE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_IQ_SEL_EN_2_PE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_TXNRX2_PE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_FCLK2_PE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_MCLK2_PE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DIQ1_DS
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DIQ1_PE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_IQ_SEL_EN_1_PE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_TXNRX1_PE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_FCLK1_PE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_MCLK1_PE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DIQDIRCTR2
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DIQDIR2
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DIQDIRCTR1
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DIQDIR1
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_ENABLEDIRCTR2
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_ENABLEDIR2
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_ENABLEDIRCTR1
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_ENABLEDIR1
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_MOD_EN
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_LML2_FIDM
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_LML2_TXNRXIQ
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_LML2_MODE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_LML1_FIDM
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_LML1_TXNRXIQ
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_LML1_MODE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_LML1_S3S
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_LML1_S2S
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_LML1_S1S
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_LML1_S0S
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_LML1_BQP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_LML1_BIP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_LML1_AQP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_LML1_AIP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_LML1_BB2RF_PST
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_LML1_BB2RF_PRE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_LML1_RF2BB_PST
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_LML1_RF2BB_PRE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_LML2_S3S
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_LML2_S2S
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_LML2_S1S
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_LML2_S0S
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_LML2_BQP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_LML2_BIP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_LML2_AQP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_LML2_AIP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_LML2_BB2RF_PST
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_LML2_BB2RF_PRE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_LML2_RF2BB_PST
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_LML2_RF2BB_PRE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_FCLK2_DLY
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_FCLK1_DLY
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_RX_MUX
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_TX_MUX
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_TXRDCLK_MUX
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_TXWRCLK_MUX
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_RXRDCLK_MUX
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_RXWRCLK_MUX
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_FCLK2_INV
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_FCLK1_INV
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_MCLK2DLY
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_MCLK1DLY
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_MCLK2SRC
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_MCLK1SRC
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_TXDIVEN
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_RXDIVEN
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_TXTSPCLKA_DIV
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_RXTSPCLKA_DIV
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_MIMO_SISO
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_VER
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_REV
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_MASK
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_DIR_LDO
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_DIR_CGEN
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_DIR_XBUF
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_DIR_AFE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_ISEL_DAC_AFE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_MODE_INTERLEAVE_AFE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_MUX_AFE_1
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_MUX_AFE_2
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_PD_AFE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_PD_RX_AFE1
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_PD_RX_AFE2
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_PD_TX_AFE1
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_PD_TX_AFE2
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_G_AFE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_MUX_BIAS_OUT
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_RP_CALIB_BIAS
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_PD_FRP_BIAS
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_PD_F_BIAS
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_PD_PTRP_BIAS
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_PD_PT_BIAS
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_PD_BIAS_MASTER
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_SLFB_XBUF_RX
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_SLFB_XBUF_TX
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_BYP_XBUF_RX
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_BYP_XBUF_TX
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_OUT2_XBUF_TX
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_TBUFIN_XBUF_RX
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_PD_XBUF_RX
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_PD_XBUF_TX
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_G_XBUF
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_SPDUP_VCO_CGEN
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_RESET_N_CGEN
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_ADCCLKH_CLKGN
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_COARSE_CKLGEN
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_INTONLY_SDM_CGEN
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_SDM_CLK_CGEN
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_PD_CP_CGEN
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_PD_FDIV_FB_CGEN
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_PD_FDIV_O_CGEN
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_PD_SDM_CGEN
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_PD_VCO_CGEN
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_PD_VCO_COMP_CGEN
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_G_CGEN
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_FRAC_SDM_CGEN_LSB
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_INT_SDM_CGEN
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_FRAC_SDM_CGEN_MSB
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_REV_SDMCLK_CGEN
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_SEL_SDMCLK_CGEN
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_SX_DITHER_EN_CGEN
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_CLKH_OV_CLKL_CGEN
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DIV_OUTCH_CGEN
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_TST_CGEN
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_REV_CLKDAC_CGEN
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_CMPLO_CTRL_CGEN
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_REV_CLKADC_CGEN
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_REVPH_PFD_CGEN
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_IOFFSET_CP_CGEN
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_IPULSE_CP_CGEN
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_ICT_VCO_CGEN
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_CSW_VCO_CGEN
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_COARSE_START_CGEN
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_COARSE_STEPDONE_CGEN
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_COARSEPLL_COMPO_CGEN
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_VCO_CMPHO_CGEN
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_VCO_CMPLO_CGEN
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_CP2_CGEN
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_CP3_CGEN
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_CZ_CGEN
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_LDO_DIG
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_LDO_DIGGN
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_LDO_DIGSXR
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_LDO_DIGSXT
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_LDO_DIVGN
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_LDO_DIVSXR
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_LDO_DIVSXT
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_LDO_LNA12
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_LDO_LNA14
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_LDO_MXRFE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_LDO_RBB
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_LDO_RXBUF
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_LDO_TBB
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_LDO_TIA12
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_LDO_TIA14
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_G_LDO
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_LOADIMP_LDO_TLOB
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_LOADIMP_LDO_TPAD
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_LOADIMP_LDO_TXBUF
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_LOADIMP_LDO_VCOGN
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_LOADIMP_LDO_VCOSXR
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_LOADIMP_LDO_VCOSXT
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_LDO_AFE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_LDO_CPGN
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_LDO_CPSXR
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_LDO_TLOB
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_LDO_TPAD
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_LDO_TXBUF
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_LDO_VCOGN
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_LDO_VCOSXR
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_LDO_VCOSXT
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_LDO_CPSXT
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_LOADIMP_LDO_CPSXT
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_LOADIMP_LDO_DIG
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_LOADIMP_LDO_DIGGN
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_LOADIMP_LDO_DIGSXR
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_LOADIMP_LDO_DIGSXT
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_LOADIMP_LDO_DIVGN
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_LOADIMP_LDO_DIVSXR
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_LOADIMP_LDO_DIVSXT
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_LOADIMP_LDO_LNA12
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_LOADIMP_LDO_LNA14
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_LOADIMP_LDO_MXRFE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_LOADIMP_LDO_RBB
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_LOADIMP_LDO_RXBUF
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_LOADIMP_LDO_TBB
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_LOADIMP_LDO_TIA12
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_LOADIMP_LDO_TIA14
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_BYP_LDO_TBB
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_BYP_LDO_TIA12
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_BYP_LDO_TIA14
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_BYP_LDO_TLOB
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_BYP_LDO_TPAD
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_BYP_LDO_TXBUF
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_BYP_LDO_VCOGN
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_BYP_LDO_VCOSXR
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_BYP_LDO_VCOSXT
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_LOADIMP_LDO_AFE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_LOADIMP_LDO_CPGN
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_LOADIMP_LDO_CPSXR
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_BYP_LDO_AFE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_BYP_LDO_CPGN
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_BYP_LDO_CPSXR
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_BYP_LDO_CPSXT
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_BYP_LDO_DIG
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_BYP_LDO_DIGGN
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_BYP_LDO_DIGSXR
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_BYP_LDO_DIGSXT
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_BYP_LDO_DIVGN
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_BYP_LDO_DIVSXR
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_BYP_LDO_DIVSXT
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_BYP_LDO_LNA12
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_BYP_LDO_LNA14
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_BYP_LDO_MXRFE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_BYP_LDO_RBB
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_BYP_LDO_RXBUF
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_SPDUP_LDO_DIVSXR
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_SPDUP_LDO_DIVSXT
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_SPDUP_LDO_LNA12
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_SPDUP_LDO_LNA14
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_SPDUP_LDO_MXRFE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_SPDUP_LDO_RBB
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_SPDUP_LDO_RXBUF
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_SPDUP_LDO_TBB
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_SPDUP_LDO_TIA12
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_SPDUP_LDO_TIA14
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_SPDUP_LDO_TLOB
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_SPDUP_LDO_TPAD
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_SPDUP_LDO_TXBUF
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_SPDUP_LDO_VCOGN
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_SPDUP_LDO_VCOSXR
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_SPDUP_LDO_VCOSXT
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_SPDUP_LDO_AFE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_SPDUP_LDO_CPGN
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_SPDUP_LDO_CPSXR
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_SPDUP_LDO_CPSXT
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_SPDUP_LDO_DIG
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_SPDUP_LDO_DIGGN
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_SPDUP_LDO_DIGSXR
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_SPDUP_LDO_DIGSXT
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_SPDUP_LDO_DIVGN
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_RDIV_VCOSXR
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_RDIV_VCOSXT
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_RDIV_TXBUF
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_RDIV_VCOGN
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_RDIV_TLOB
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_RDIV_TPAD
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_RDIV_TIA12
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_RDIV_TIA14
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_RDIV_RXBUF
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_RDIV_TBB
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_RDIV_MXRFE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_RDIV_RBB
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_RDIV_LNA12
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_RDIV_LNA14
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_RDIV_DIVSXR
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_RDIV_DIVSXT
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_RDIV_DIGSXT
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_RDIV_DIVGN
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_RDIV_DIGGN
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_RDIV_DIGSXR
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_RDIV_CPSXT
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_RDIV_DIG
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_RDIV_CPGN
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_RDIV_CPSXR
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_RDIV_SPIBUF
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_RDIV_AFE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_SPDUP_LDO_SPIBUF
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_SPDUP_LDO_DIGIp2
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_SPDUP_LDO_DIGIp1
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_BYP_LDO_SPIBUF
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_BYP_LDO_DIGIp2
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_BYP_LDO_DIGIp1
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_LOADIMP_LDO_SPIBUF
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_LOADIMP_LDO_DIGIp2
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_LOADIMP_LDO_DIGIp1
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_PD_LDO_SPIBUF
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_PD_LDO_DIGIp2
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_PD_LDO_DIGIp1
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_G_LDOP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_RDIV_DIGIp2
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_RDIV_DIGIp1
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_BSIGT
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_BSTATE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_SDM_TSTO_SXT
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_SDM_TSTO_SXR
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_SDM_TSTO_CGEN
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_BENC
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_BENR
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_BENT
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_BSTART
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_BSIGR
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_BSIGC
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_CDS_MCLK2
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_CDS_MCLK1
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_CDSN_TXBTSP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_CDSN_TXATSP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_CDSN_RXBTSP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_CDSN_RXATSP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_CDSN_TXBLML
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_CDSN_TXALML
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_CDSN_RXBLML
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_CDSN_RXALML
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_CDSN_MCLK2
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_CDSN_MCLK1
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_CDS_TXBTSP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_CDS_TXATSP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_CDS_RXBTSP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_CDS_RXATSP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_CDS_TXBLML
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_CDS_TXALML
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_CDS_RXBLML
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_CDS_RXALML
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_LOWBWLOMX_TMX_TRF
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_NEXTTX_TRF
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_AMPHF_PDET_TRF
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_LOADR_PDET_TRF
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_PD_PDET_TRF
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_PD_TLOBUF_TRF
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_PD_TXPAD_TRF
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_G_TRF
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_F_TXPAD_TRF
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_L_LOOPB_TXPAD_TRF
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_LOSS_LIN_TXPAD_TRF
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_LOSS_MAIN_TXPAD_TRF
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_LOOPB_TXPAD_TRF
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_GCAS_GNDREF_TXPAD_TRF
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_ICT_LIN_TXPAD_TRF
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_ICT_MAIN_TXPAD_TRF
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_VGCAS_TXPAD_TRF
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_SEL_BAND1_TRF
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_SEL_BAND2_TRF
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_LOBIASN_TXM_TRF
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_LOBIASP_TXX_TRF
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_CDC_I_TRF
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_CDC_Q_TRF
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_STATPULSE_TBB
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_LOOPB_TBB
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_PD_LPFH_TBB
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_PD_LPFIAMP_TBB
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_PD_LPFLAD_TBB
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_PD_LPFS5_TBB
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_G_TBB
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_ICT_LPFS5_F_TBB
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_ICT_LPFS5_PT_TBB
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_ICT_LPF_H_PT_TBB
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_ICT_LPFH_F_TBB
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_ICT_LPFLAD_F_TBB
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_ICT_LPFLAD_PT_TBB
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_CG_IAMP_TBB
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_ICT_IAMP_FRP_TBB
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_ICT_IAMP_GG_FRP_TBB
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_RCAL_LPFH_TBB
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_RCAL_LPFLAD_TBB
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_TSTIN_TBB
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_BYPLADDER_TBB
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_CCAL_LPFLAD_TBB
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_RCAL_LPFS5_TBB
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_CDC_I_RFE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_CDC_Q_RFE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_PD_LNA_RFE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_PD_RLOOPB_1_RFE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_PD_RLOOPB_2_RFE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_PD_MXLOBUF_RFE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_PD_QGEN_RFE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_PD_RSSI_RFE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_PD_TIA_RFE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_G_RFE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_SEL_PATH_RFE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_DCOFF_RXFE_RFE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_INSHSW_LB1_RFE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_INSHSW_LB2_RFE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_INSHSW_L_RFE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_INSHSW_W_RFE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_NEXTRX_RFE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DCOFFI_RFE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DCOFFQ_RFE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_ICT_LOOPB_RFE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_ICT_TIAMAIN_RFE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_ICT_TIAOUT_RFE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_ICT_LNACMO_RFE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_ICT_LNA_RFE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_ICT_LODC_RFE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_CAP_RXMXO_RFE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_CGSIN_LNA_RFE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_CCOMP_TIA_RFE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_CFB_TIA_RFE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_G_LNA_RFE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_G_RXLOOPB_RFE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_G_TIA_RFE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_RCOMP_TIA_RFE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_RFB_TIA_RFE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_LB_LPFH_RBB
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_LB_LPFL_RBB
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_PD_LPFH_RBB
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_PD_LPFL_RBB
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_PD_PGA_RBB
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_G_RBB
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_R_CTL_LPF_RBB
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_RCC_CTL_LPFH_RBB
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_C_CTL_LPFH_RBB
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_RCC_CTL_LPFL_RBB
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_C_CTL_LPFL_RBB
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_INPUT_CTL_PGA_RBB
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_ICT_LPF_IN_RBB
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_ICT_LPF_OUT_RBB
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_OSW_PGA_RBB
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_ICT_PGA_OUT_RBB
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_ICT_PGA_IN_RBB
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_G_PGA_RBB
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_RCC_CTL_PGA_RBB
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_C_CTL_PGA_RBB
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_RESET_N
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_SPDUP_VCO
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_BYPLDO_VCO
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_COARSEPLL
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_CURLIM_VCO
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_DIV2_DIVPROG
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_INTONLY_SDM
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_SDM_CLK
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_PD_FBDIV
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_PD_LOCH_T2RBUF
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_PD_CP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_PD_FDIV
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_PD_SDM
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_PD_VCO_COMP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_PD_VCO
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_G
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_FRAC_SDM_LSB
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_INT_SDM
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_FRAC_SDM_MSB
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_PW_DIV2_LOCH
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_PW_DIV4_LOCH
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DIV_LOCH
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_TST_SX
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_SEL_SDMCLK
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_SX_DITHER_EN
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_REV_SDMCLK
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_VDIV_VCO
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_ICT_VCO
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_RSEL_LDO_VCO
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_CSW_VCO
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_SEL_VCO
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_COARSE_START
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_REVPH_PFD
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_IOFFSET_CP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_IPULSE_CP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_COARSE_STEPDONE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_COARSEPLL_COMPO
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_VCO_CMPHO
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_VCO_CMPLO
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_CP2_PLL
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_CP3_PLL
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_CZ
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_DIR_SXRSXT
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_DIR_RBB
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_DIR_RFE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_DIR_TBB
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_DIR_TRF
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_TSGFC_TXTSP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_TSGFCW_TXTSP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_TSGDCLDQ_TXTSP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_TSGDCLDI_TXTSP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_TSGSWAPIQ_TXTSP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_TSGMODE_TXTSP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_INSEL_TXTSP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_BSTART_TXTSP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_TXTSP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_GCORRQ_TXTSP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_GCORRI_TXTSP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_HBI_OVR_TXTSP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_IQCORR_TXTSP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DCCORRI_TXTSP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DCCORRQ_TXTSP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_GFIR1_L_TXTSP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_GFIR1_N_TXTSP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_GFIR2_L_TXTSP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_GFIR2_N_TXTSP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_GFIR3_L_TXTSP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_GFIR3_N_TXTSP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_CMIX_GAIN_TXTSP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_CMIX_SC_TXTSP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_CMIX_BYP_TXTSP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_ISINC_BYP_TXTSP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_GFIR3_BYP_TXTSP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_GFIR2_BYP_TXTSP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_GFIR1_BYP_TXTSP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DC_BYP_TXTSP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_GC_BYP_TXTSP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_PH_BYP_TXTSP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_BSIGI_TXTSP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_BSTATE_TXTSP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_BSIGQ_TXTSP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DC_REG_TXTSP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DTHBIT_TX
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_SEL_TX
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_MODE_TX
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_PHO_TX
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_CAPTURE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_CAPSEL
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_CAPSEL_ADC
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_TSGFC_RXTSP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_TSGFCW_RXTSP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_TSGDCLDQ_RXTSP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_TSGDCLDI_RXTSP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_TSGSWAPIQ_RXTSP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_TSGMODE_RXTSP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_INSEL_RXTSP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_BSTART_RXTSP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_EN_RXTSP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_GCORRQ_RXTSP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_GCORRI_RXTSP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_HBD_OVR_RXTSP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_IQCORR_RXTSP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_HBD_DLY
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DCCORR_AVG_RXTSP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_GFIR1_L_RXTSP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_GFIR1_N_RXTSP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_GFIR2_L_RXTSP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_GFIR2_N_RXTSP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_GFIR3_L_RXTSP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_GFIR3_N_RXTSP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_AGC_K_RXTSP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_AGC_ADESIRED_RXTSP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_RSSI_MODE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_AGC_MODE_RXTSP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_AGC_AVG_RXTSP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DC_REG_RXTSP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_CMIX_GAIN_RXTSP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_CMIX_SC_RXTSP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_CMIX_BYP_RXTSP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_AGC_BYP_RXTSP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_GFIR3_BYP_RXTSP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_GFIR2_BYP_RXTSP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_GFIR1_BYP_RXTSP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DC_BYP_RXTSP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_GC_BYP_RXTSP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_PH_BYP_RXTSP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_CAPD
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DTHBIT_RX
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_SEL_RX
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_MODE_RX
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_PHO_RX
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_TRX_GAIN_SRC
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_LML2_TRXIQPULSE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_LML2_SISODDR
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_LML1_TRXIQPULSE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_LML1_SISODDR
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_MCLK2_DLY
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_MCLK1_DLY
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_MCLK2_INV
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_MCLK1_INV
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_CMIX_GAIN_TXTSP_R3
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_CMIX_GAIN_RXTSP_R3
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_R5_LPF_BYP_TBB
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_CG_IAMP_TBB_R3
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_LOSS_LIN_TXPAD_R3
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_LOSS_MAIN_TXPAD_R3
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_C_CTL_PGA_RBB_R3
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_G_PGA_RBB_R3
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_G_LNA_RFE_R3
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_G_TIA_RFE_R3
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_RZ_CTRL
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_CMPLO_CTRL_SX
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_CMPLO_CTRL_CGEN_R3
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_ISINK_SPIBUFF
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DCMODE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_PD_DCDAC_RXB
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_PD_DCDAC_RXA
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_PD_DCDAC_TXB
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_PD_DCDAC_TXA
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_PD_DCCMP_RXB
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_PD_DCCMP_RXA
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_PD_DCCMP_TXB
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_PD_DCCMP_TXA
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DCCAL_CALSTATUS_RXBQ
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DCCAL_CALSTATUS_RXBI
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DCCAL_CALSTATUS_RXAQ
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DCCAL_CALSTATUS_RXAI
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DCCAL_CALSTATUS_TXBQ
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DCCAL_CALSTATUS_TXBI
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DCCAL_CALSTATUS_TXAQ
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DCCAL_CALSTATUS_TXAI
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DCCAL_CMPSTATUS_RXBQ
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DCCAL_CMPSTATUS_RXBI
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DCCAL_CMPSTATUS_RXAQ
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DCCAL_CMPSTATUS_RXAI
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DCCAL_CMPSTATUS_TXBQ
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DCCAL_CMPSTATUS_TXBI
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DCCAL_CMPSTATUS_TXAQ
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DCCAL_CMPSTATUS_TXAI
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DCCAL_CMPCFG_RXBQ
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DCCAL_CMPCFG_RXBI
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DCCAL_CMPCFG_RXAQ
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DCCAL_CMPCFG_RXAI
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DCCAL_CMPCFG_TXBQ
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DCCAL_CMPCFG_TXBI
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DCCAL_CMPCFG_TXAQ
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DCCAL_CMPCFG_TXAI
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DCCAL_START_RXBQ
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DCCAL_START_RXBI
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DCCAL_START_RXAQ
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DCCAL_START_RXAI
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DCCAL_START_TXBQ
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DCCAL_START_TXBI
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DCCAL_START_TXAQ
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DCCAL_START_TXAI
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DCWR_TXAI
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DCRD_TXAI
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DC_TXAI
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DCWR_TXAQ
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DCRD_TXAQ
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DC_TXAQ
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DCWR_TXBI
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DCRD_TXBI
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DC_TXBI
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DCWR_TXBQ
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DCRD_TXBQ
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DC_TXBQ
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DCWR_RXAI
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DCRD_RXAI
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DC_RXAI
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DCWR_RXAQ
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DCRD_RXAQ
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DC_RXAQ
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DCWR_RXBI
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DCRD_RXBI
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DC_RXBI
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DCWR_RXBQ
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DCRD_RXBQ
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DC_RXBQ
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DC_RXCDIV
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DC_TXCDIV
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_HYSCMP_RXB
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_HYSCMP_RXA
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_HYSCMP_TXB
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_HYSCMP_TXA
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DAC_CLKDIV
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_RSSI_RSSIMODE
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_RSSI_PD
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_INTADC_CMPSTATUS_TEMPREF
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_INTADC_CMPSTATUS_TEMPVPTAT
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_INTADC_CMPSTATUS_RSSI2
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_INTADC_CMPSTATUS_RSSI1
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_INTADC_CMPSTATUS_PDET2
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_INTADC_CMPSTATUS_PDET1
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_RSSI_BIAS
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_RSSI_HYSCMP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_INTADC_CMPCFG_TEMPREF
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_INTADC_CMPCFG_TEMPVPTAT
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_INTADC_CMPCFG_RSSI2
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_INTADC_CMPCFG_RSSI1
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_INTADC_CMPCFG_PDET2
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_INTADC_CMPCFG_PDET1
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_RSSI_DAC_VAL
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_RSSI_PDET2_VAL
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_RSSI_PDET1_VAL
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_RSSI_RSSI2_VAL
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_RSSI_RSSI1_VAL
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_RSSI_TREF_VAL
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_RSSI_TVPTAT_VAL
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_RSSIDC_CMPSTATUS
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_RSSIDC_RSEL
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_RSSIDC_HYSCMP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_RSSIDC_PD
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_RSSIDC_DCO2
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_RSSIDC_DCO1
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS7_DCLOOP_STOP
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+[ Info: writing ../src/wrapper/LMS7002M_parameters.jl
+[ Info: wrapping header: /usr/include/lime/LMSBoards.h ...
+┌ Warning: not wrapping CLCursor (CLVarDecl) lime
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+[ Info: writing ../src/wrapper/LMSBoards.jl
+[ Info: wrapping header: /usr/include/lime/LimeSuite.h ...
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS_SUCCESS
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS_CH_TX
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS_CH_RX
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: Skipping unnamed EnumDecl: CLCursor (CLEnumDecl) 
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:94
+┌ Warning: not wrapping CLCursor (CLVarDecl) LMS_NCO_VAL_COUNT
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: Skipping struct: "CLCursor (CLStructDecl) " due to unsupported field: CLCursor (CLEnumDecl) 
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:158
+┌ Warning: No Prototype for CLCursor (CLFunctionDecl) LMS_GetLibraryVersion() - assuming no arguments
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:13
+[ Info: writing ../src/wrapper/LimeSuite.jl
+[ Info: wrapping header: /usr/include/lime/LimeSuiteConfig.h ...
+[ Info: writing ../src/wrapper/LimeSuiteConfig.jl
+[ Info: wrapping header: /usr/include/lime/Logger.h ...
+┌ Warning: not wrapping CLCursor (CLVarDecl) lime
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+[ Info: writing ../src/wrapper/Logger.jl
+[ Info: wrapping header: /usr/include/lime/MCU_BD.h ...
+[ Info: writing ../src/wrapper/MCU_BD.jl
+[ Info: wrapping header: /usr/include/lime/MCU_File.h ...
+┌ Warning: not wrapping CLCursor (CLVarDecl) namespace
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) MemBlock
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+┌ Warning: not wrapping CLCursor (CLVarDecl) MCU_File
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+[ Info: writing ../src/wrapper/MCU_File.jl
+[ Info: wrapping header: /usr/include/lime/Si5351C.h ...
+┌ Warning: not wrapping CLCursor (CLVarDecl) lime
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+[ Info: writing ../src/wrapper/Si5351C.jl
+[ Info: wrapping header: /usr/include/lime/Streamer.h ...
+[ Info: writing ../src/wrapper/Streamer.jl
+[ Info: wrapping header: /usr/include/lime/SystemResources.h ...
+┌ Warning: not wrapping CLCursor (CLVarDecl) lime
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+[ Info: writing ../src/wrapper/SystemResources.jl
+[ Info: wrapping header: /usr/include/lime/VersionInfo.h ...
+┌ Warning: not wrapping CLCursor (CLVarDecl) lime
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+[ Info: writing ../src/wrapper/VersionInfo.jl
+[ Info: wrapping header: /usr/include/lime/dataTypes.h ...
+┌ Warning: not wrapping CLCursor (CLVarDecl) lime
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+[ Info: writing ../src/wrapper/dataTypes.jl
+[ Info: wrapping header: /usr/include/lime/fifo.h ...
+┌ Warning: not wrapping CLCursor (CLVarDecl) lime
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+[ Info: writing ../src/wrapper/fifo.jl
+[ Info: wrapping header: /usr/include/lime/limeRFE.h ...
+[ Info: writing ../src/wrapper/limeRFE.jl
+[ Info: wrapping header: /usr/include/lime/lms7_device.h ...
+┌ Warning: not wrapping CLCursor (CLVarDecl) lime
+└ @ Clang /opt/julia/packages/Clang/ypHaU/src/wrap_c.jl:446
+[ Info: writing ../src/wrapper/lms7_device.jl
