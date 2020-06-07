@@ -1,7 +1,7 @@
 # Automatically generated using Clang.jl
 
 
-struct LMS7Parameter
+mutable struct LMS7Parameter
     address::UInt16
     msb::UInt8
     lsb::UInt8
@@ -33,7 +33,7 @@ const lms_device_t = Cvoid
 const lms_info_str_t = NTuple{256, UInt8}
 const lms_name_t = NTuple{16, UInt8}
 
-struct lms_range_t
+mutable struct lms_range_t
     min::float_type
     max::float_type
     step::float_type
@@ -55,13 +55,13 @@ end
 end
 
 
-struct lms_stream_meta_t
+mutable struct lms_stream_meta_t
     timestamp::UInt64
     waitForTimestamp::Bool
     flushPartialPacket::Bool
 end
 
-struct lms_stream_status_t
+mutable struct lms_stream_status_t
     active::Bool
     fifoFilledCount::UInt32
     fifoSize::UInt32
@@ -75,7 +75,7 @@ end
 
 const lms_prog_callback_t = Ptr{Cvoid}
 
-struct lms_dev_info_t
+mutable struct lms_dev_info_t
     deviceName::NTuple{32, UInt8}
     expansionName::NTuple{32, UInt8}
     firmwareVersion::NTuple{16, UInt8}
@@ -145,7 +145,7 @@ const RFE_SWR_ENABLE = 1
 const RFE_SWR_SRC_EXT = 0
 const RFE_SWR_SRC_CELL = 1
 
-struct rfe_boardState
+mutable struct rfe_boardState
     channelIDRX::UInt8
     channelIDTX::UInt8
     selPortRX::UInt8
